@@ -21,7 +21,6 @@ if(isset($_GET["data"])){
       echo $user_data;
   }
 }else{
-  echo "find a vulnerability and get a flag!";
   include("./hint.html");
 }
 ?>
